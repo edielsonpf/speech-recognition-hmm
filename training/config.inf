@@ -1,0 +1,22 @@
+[Opcoes]
+Inicializacao=SegmentalKMeans
+[Arquivos]
+Arquivo de saida=/home/ynoguti/Pesquisa/dados/mdd3g.hmm
+Nome subunidades=/home/ynoguti/Pesquisa/dados/fones.txt
+Arquivo transcricoes=/home/ynoguti/Pesquisa/dados/transc.txt
+Arquivo locucoes=/home/ynoguti/Pesquisa/dados/wav.txt
+Numero de arquivos=600
+Nome pre-treinado=/home/ynoguti/workspace/treina/Debug/mel.hmm
+[HMM]
+Numero de estados=3
+Salto maximo=2
+[Parametros]
+Numero de parametros=1
+Parametro 0=mdd
+Delta 0=1
+Gaussianas 0=3
+Ordem 0=36
+[PCA]
+Usa PCA=nao
+Nome PCA=iog3.kl
+Ordem reduzida=12

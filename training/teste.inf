@@ -1,0 +1,30 @@
+[Opcoes]
+Inicializacao=SegmentalKMeans
+[Arquivos]
+Arquivo de saida=/home/ynoguti/workspace/treina/Debug/mdd3.hmm
+Nome subunidades=/home/ynoguti/workspace/treina/Debug/fones.txt
+Arquivo transcricoes=/home/ynoguti/workspace/treina/Debug/transc.txt
+Arquivo locucoes=/home/ynoguti/workspace/treina/Debug/wav.txt
+Numero de arquivos=600
+Nome pre-treinado=/home/ynoguti/Pesquisa/TestesPortLinux/mdd3.hmm
+[HMM]
+Numero de estados=3
+Salto maximo=2
+[Parametros]
+Numero de parametros=3
+Parametro 0=mel
+Delta 0=0
+Gaussianas 0=3
+Ordem 0=12
+Parametro 1=delta-mel
+Delta 1=1
+Gaussianas 1=3
+Ordem 1=12
+Parametro 2=delta-delta-mel
+Delta 1=1
+Gaussianas 1=3
+Ordem 1=12
+[PCA]
+Usa PCA=nao
+Nome PCA=iog3.kl
+Ordem reduzida=12
